@@ -3,4 +3,4 @@ project(Arboles)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Arboles main.cpp)
+add_executable(Arboles main.cpp Controller/RedBlackTree.cpp Model/RedBlackTree.h Controller/NodeRedBlackTree.cpp Model/NodeRedBlackTree.h)
