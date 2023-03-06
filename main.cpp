@@ -10,5 +10,7 @@ int main() {
     bst->insert(75);
     bst->insert(57);
     bst->printTree();
+    bst->deleteNode(60);
+    bst->printTree();
     return 0;
 }
