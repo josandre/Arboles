@@ -201,7 +201,7 @@ void RedBlackTree::deleteNodeHelper(NodeRedBlackTree *node, int data) {
     }
 
     if(z == this->tnull){
-        cout << "The data was not found in the tree" << endl;
+        cout << "The keys was not found in the tree" << endl;
         return;
     }
 
