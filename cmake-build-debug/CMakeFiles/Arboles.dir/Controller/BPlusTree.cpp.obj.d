@@ -1,6 +1,7 @@
 CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.obj: \
  C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Controller\BPlusTree.cpp \
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h \
+ C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -132,5 +133,4 @@ CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h
+ C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc

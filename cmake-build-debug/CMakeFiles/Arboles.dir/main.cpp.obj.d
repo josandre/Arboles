@@ -134,12 +134,6 @@ CMakeFiles/Arboles.dir/main.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
  C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/RedBlackTree.h \
  C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/NodeRedBlackTree.h \
- C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/BPlusTree.h \
- C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/BPlusTreeNode.h \
  C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/BPlusTreeController.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
- C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/BPlusTree.h
+ C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/BPlusTree.h \
+ C:\Users\tsegura\Documents\Universidad\EstructurasDeDatos2\Repos\Arboles\Arboles\Model/BPlusTreeNode.h

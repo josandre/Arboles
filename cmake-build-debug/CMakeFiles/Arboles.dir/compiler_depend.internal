@@ -4,6 +4,7 @@
 CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.obj
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTree.cpp
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h
+ C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
@@ -136,11 +137,12 @@ CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
- C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h
 
 CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.obj
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeController.cpp
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeController.h
+ C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h
+ C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
@@ -273,13 +275,6 @@ CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
- C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h
- C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h
 
 CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.obj
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeNode.cpp
@@ -562,13 +557,7 @@ CMakeFiles/Arboles.dir/main.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/RedBlackTree.h
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/NodeRedBlackTree.h
+ C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeController.h
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h
  C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h
- C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeController.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h
- C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
- C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h
 

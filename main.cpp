@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Model/RedBlackTree.h"
-#include "Model/BPlusTree.h"
 #include "Model/BPlusTreeController.h"
 
 void InsertBPlus(BPlusTreeController* tree, int value) {
