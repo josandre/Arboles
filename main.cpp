@@ -53,9 +53,28 @@ void RedBlackTest() {
     bst->printTree();
 }
 
+void BTree(){
+    Node *root = nullptr;
+    insert(root, 10);
+    insert(root, 20);
+    insert(root, 30);
+    insert(root, 40);
+    insert(root, 50);
+    insert(root, 60);
+    insert(root, 70);
+    insert(root, 80);
+    insert(root, 90);
+    insert(root, 100);
+    deleteNode(root, 40);
+    inorder(root);
+    return 0;
+}
+
 int main() {
     RedBlackTest();
     //BPlusTest();
+    cout << "Btree resultados";
+    BTree();
 
     return 0;
 }
