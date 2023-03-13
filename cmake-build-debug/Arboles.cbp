@@ -8,129 +8,127 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug"/>
+				<Option working_dir="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Arboles">
-				<Option output="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Arboles.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug"/>
+				<Option output="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Arboles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arboles"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arboles"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Arboles/fast">
-				<Option output="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Arboles.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug"/>
+				<Option output="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Arboles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arboles/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arboles/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug"/>
+				<Option working_dir="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug"/>
+				<Option working_dir="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/AVLTree.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/AVLTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTree.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeNode.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BTree.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BtreeNode.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BtreeNode.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/Node.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/NodeRedBlackTree.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/RedBlackTree.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Gestor/AVLTreeController.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Gestor/BPlusTreeController.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Model/BPlusTree.h">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Model/BPlusTreeNode.h">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/NodeRedBlackTree.h">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Model/NodeRedBlackTree.h">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/RedBlackTree.h">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Model/RedBlackTree.h">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/ModelGestor/BPlusTreeController.h">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/ModelGestor/BPlusTreeController.h">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/main.cpp">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/main.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/CMakeLists.txt">
+		<Unit filename="/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

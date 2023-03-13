@@ -6,26 +6,30 @@
 #include "iostream"
 using namespace std;
 
-class BTreeNode
-{
-public:
-    BTreeNode(int, bool);
-    void insertNonFull(int );
-    void splitChild(int, BTreeNode *);
-    void traverse();
-    BTreeNode *search(int k);
-    int *getKeys();
-    int getN();
-    bool getLeaf();
-    void setN(int);
-    BTreeNode **getC();
-
-private:
+class BTreeNode {
     int *keys;
     int t;
-    BTreeNode **c;
+    BTreeNode **C;
     int n;
     bool leaf;
+
+public:
+    BTreeNode(int _t, bool _leaf);
+    void insertNonFull(int k);
+    void splitChild(int i, BTreeNode *y);
+    void traverse();
+    int findKey(int k);
+    void deletion(int k);
+    void removeFromLeaf(int idx);
+    void removeFromNonLeaf(int idx);
+    int getPredecessor(int idx);
+    int getSuccessor(int idx);
+    void fill(int idx);
+    void borrowFromPrev(int idx);
+    void borrowFromNext(int idx);
+    void merge(int idx);
+    friend class BTree;
+
 };
 
 

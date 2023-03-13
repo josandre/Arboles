@@ -89,37 +89,24 @@ void RedBlackTest() {
 
 void BTreeTest(){
    BTree *b = new BTree(3);
-   b->insert(10);
-   b->insert(20);
-   b->insert(5);
-   b->insert(6);
-   b->insert(12);
-   b->insert(30);
-   b->insert(7);
-   b->insert(17);
-   /*
-    cout << "Traversal of the constructed tree is ";
+    b->insert(20);
+    b->insert(18);
+    b->insert(8);
+    b->insert(9);
+    b->insert(10);
+    b->insert(11);
+    b->insert(15);
+    b->insert(16);
+    b->insert(17);
+
+
+
+    cout << "The B-tree is: ";
+
+
+    b->deletion(20);
     b->traverse();
 
-    int k = 6;
-    (b->search(k) != nullptr)? cout << "\nPresent" : cout << "\nNot Present";
-
-    k = 15;
-    (b->search(k) != nullptr)? cout << "\nPresent" : cout << "\nNot Present";
-    */
-    string* messageArray = new string[100];
-    for (int i = 0; i < messageArray->size(); i++) {
-        messageArray[i] = "";
-    }
-
-    b->print(b->getRoot(), messageArray, 0);
-
-    for (int i = 0; i < messageArray->size(); i++) {
-        if (messageArray[i] != "")
-        {
-            cout << messageArray[i] << endl;
-        }
-    }
 }
 
 int main() {
