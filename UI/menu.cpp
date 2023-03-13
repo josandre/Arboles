@@ -3,11 +3,11 @@
 //
 
 #include <iostream>
-#include "ModelGestor/AVLTreeController.h"
-#include "ModelGestor/BPlusTreeController.h"
-#include "Model/RedBlackTree.h"
-#include "ModelGestor/BTreeController.h"
-#include "UI/menu.h"
+#include "../ModelGestor/AVLTreeController.h"
+#include "../ModelGestor/BPlusTreeController.h"
+#include "../Model/RedBlackTree.h"
+#include "../ModelGestor/BTreeController.h"
+#include "../UI/menu.h"
 
 // PROTOTIPO DE FUNCIONES
 void menuPrincipal();
@@ -21,7 +21,7 @@ void imprimir(int arbol);
 // STATIC VARIABLES
 static AVLTreeController *gestorAVL = new AVLTreeController();
 static RedBlackTree *bst = new RedBlackTree();
-static BTreeController *btree = new BTree();
+static BTreeController *btree = new BTreeController(4);
 static BPlusTreeController *bplus = new BPlusTreeController(4);
 
 void InsertBPlus(BPlusTreeController *tree, int value)
