@@ -4,8 +4,8 @@
 *.lo
 *.o
 *.obj
-*json
-*log
+*.json
+*.log
 
 # Precompiled Headers
 *.gch
@@ -76,3 +76,4 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+/cmake-build-debug/
