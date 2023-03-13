@@ -228,7 +228,7 @@ void remover(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    //    gestorAVL->Remove(input);
+      gestorAVL->Delete(input)
     break;
   case 2:
     do
@@ -315,7 +315,7 @@ void buscar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    // gestorAVL->Remove(input);
+
     break;
   case 2:
     do
@@ -393,7 +393,7 @@ void imprimir(int arbol)
     bst->printTree();
     break;
   case 3:
-    //    btree->deleteNode(input);
+    btree->print();
     break;
   case 4:
     bplus->Print();
