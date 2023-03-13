@@ -2,7 +2,7 @@
 // Created by tsegura on 3/11/2023.
 //
 
-#include "../ModelGestor/BPlusTreeController.h"
+#include "../ModelGestor/BTreeController.h"
 
 BPlusTreeController::BPlusTreeController(int degree) {
     tree = new BPlusTree(degree);
