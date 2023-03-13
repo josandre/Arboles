@@ -123,8 +123,6 @@ void BTreeTest(){
 }
 
 int main() {
-    //RedBlackTest();
-    //BPlusTest();
-    BTreeTest();
+    menuPrincipal();
     return 0;
 }
