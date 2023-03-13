@@ -7,13 +7,11 @@
 #include "../ModelGestor/BTreeController.h"
 
 void menuPrincipal();
-int menuOpciones(int arbol);
+void menuOpciones(int arbol);
 int menuOpcionesFun(int arbol, int answer);
 void insertar(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
 void remover(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
 void buscar(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
 void imprimir(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
-
-void InsertBPlus(BPlusTreeController *tree, int value);
 
 #endif

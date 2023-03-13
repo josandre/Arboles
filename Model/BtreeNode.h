@@ -29,7 +29,7 @@ public:
     void borrowFromNext(int idx);
     void merge(int idx);
     friend class BTree;
-
+    BTreeNode *search(int k);
 };
 
 

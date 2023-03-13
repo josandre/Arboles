@@ -15,6 +15,8 @@ public:
     void traverse();
     void insert(int k);
     void deletion(int k);
+    BTreeNode *search(int k);
+
 
 
 private:

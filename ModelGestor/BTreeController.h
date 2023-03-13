@@ -13,11 +13,9 @@ private:
 
 public:
   BTreeController(int t);
-
   void traverse();
   BTreeNode *search(int key);
   void insert(int key);
-  void print();
   void deletion(int key);
 };
 
