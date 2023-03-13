@@ -23,6 +23,7 @@ BPlusTreeNode* BPlusTree::Search(BPlusTreeNode* node, int key) {
             // Search child at the right
             if (i == cursor->GetSize() - 1) {
                 cursor = cursor->GetChildren()[i + 1];
+                break;
             }
         }
     }
