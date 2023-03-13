@@ -211,14 +211,14 @@ bool AVLTree::ApplyRotation(Node* currentNode) {
         // Simple Right
         if (currentNode->GetLeft()->GetBalanceFactor() == -1)
         {
-            cout << "Simple Right" << endl;
+            //cout << "Simple Right" << endl;
             SimpleRight(currentNode);
             return true;
         }
         // Double Right
         if (currentNode->GetLeft()->GetBalanceFactor() == 1)
         {
-            cout << "Double Right" << endl;
+            //cout << "Double Right" << endl;
             SimpleLeft(currentNode->GetLeft());
             SimpleRight(currentNode);
             return true;
@@ -229,14 +229,14 @@ bool AVLTree::ApplyRotation(Node* currentNode) {
         // Simple Left
         if (currentNode->GetRight()->GetBalanceFactor() == 1)
         {
-            cout << "Simple Left" << endl;
+            //cout << "Simple Left" << endl;
             SimpleLeft(currentNode);
             return true;
         }
         // Double Left
         if (currentNode->GetRight()->GetBalanceFactor() == -1)
         {
-            cout << "Double Left" << endl;
+            //cout << "Double Left" << endl;
             SimpleRight(currentNode->GetRight());
             SimpleLeft(currentNode);
             return true;
