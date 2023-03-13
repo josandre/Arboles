@@ -9,13 +9,13 @@
 #include "BtreeNode.h"
 
 class BTree {
+
 public:
-    BTree(int);
+    BTree(int _t);
     void traverse();
-   BTreeNode *search(int);
-   void insert(int);
-    void print(BTreeNode*, string*, int);
-    BTreeNode* getRoot();
+    void insert(int k);
+    void deletion(int k);
+
 
 private:
     BTreeNode *root;

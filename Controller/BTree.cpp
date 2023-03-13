@@ -3,74 +3,59 @@
 //
 #include "../Model/BTree.h"
 
-BTree::BTree(int t) {
-    this->root = nullptr;
-    this->t = t;
-}
-
-BTreeNode *BTree::getRoot() {
-    return this->root;
+BTree::BTree(int _t) {
+    root = nullptr;
+    t = _t;
 }
 
 void BTree::traverse() {
-    if(this->root != nullptr) this->root->traverse();
+    if (root != nullptr)
+        root->traverse();
 }
 
-BTreeNode *BTree::search(int key) {
-    return this->root == nullptr ? nullptr : this->root->search(key);
-}
 
-void BTree::insert(int key) {
 
-    if (root == nullptr)
-    {
-
-        root = new BTreeNode(t, true);
-        root->getKeys()[0] = key;
-        root->setN(1);
-    }
-    else
-    {
-
-        if (root->getN() == 2*t-1)
-        {
-
+void BTree::insert(int k) {
+    if (root == nullptr) {
+        this->root = new BTreeNode(t, true);
+        root->keys[0] = k;
+        root->n = 1;
+    } else {
+        if (root->n == 2 * t - 1) {
             BTreeNode *s = new BTreeNode(t, false);
-            s->getC()[0] = this->root;
-            s->splitChild(0, this->root);
+
+            s->C[0] = root;
+
+            s->splitChild(0, root);
 
             int i = 0;
-            if (s->getKeys()[0] < key){
+            if (s->keys[0] < k)
                 i++;
-            }
-            s->getC()[i]->insertNonFull(key);
+            s->C[i]->insertNonFull(k);
 
             root = s;
-        }
-        else  {
-            root->insertNonFull(key);
-        }
-
+        } else
+            root->insertNonFull(k);
     }
 }
 
-void BTree::print(BTreeNode* cursor, string* messageArray, int level) {
-    if (cursor == nullptr) {
+
+void BTree::deletion(int k) {
+    if (!root) {
+        cout << "The tree is empty\n";
         return;
     }
 
-    string myNodes = "";
-    // Print current node
-    for (int i = 0; i < cursor->getN(); i++) {
-        myNodes += "|" + to_string(cursor->getKeys()[i]);
-    }
-    myNodes + "|    ";
-    messageArray[level] += myNodes;
+    root->deletion(k);
 
-    // Print children
-    if (cursor->getLeaf() == false) {
-        for (int i = 0; i < cursor->getN() + 1; i++) {
-            print(cursor->getC()[i], messageArray, level + 1);
-        }
+    if (root->n == 0) {
+        BTreeNode *tmp = root;
+        if (root->leaf)
+            root = NULL;
+        else
+            root = root->C[0];
+
+        delete tmp;
     }
+    return;
 }
