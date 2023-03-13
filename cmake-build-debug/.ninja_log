@@ -1,15 +1,11 @@
 # ninja log v5
-0	68	1678666337653031529	build.ninja	f40aecf81a464312
-5	395	1678061352003212352	CMakeFiles/Arboles.dir/main.cpp.o	2eaad3601ada9549
-2	130	1677795748693984792	CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o	990a1017a17986a0
-395	440	1678061352050375847	Arboles	604123474e5ea13d
-1	482	1678060697843815079	CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o	33f2b8188d96fbe9
+0	68	1678669516555270379	build.ninja	f40aecf81a464312
+2	542	1678668299608014512	CMakeFiles/Arboles.dir/main.cpp.o	2eaad3601ada9549
 3	170	1678668299241559350	CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o	990a1017a17986a0
 3	170	1678668299241612851	CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o	d0393656c4f0d2d
-2	542	1678668299608014512	CMakeFiles/Arboles.dir/main.cpp.o	2eaad3601ada9549
 4	547	1678668299606451504	CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o	8f4cf156f10f352
 170	550	1678668299620418037	CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o	ba7c434863750dda
-4	552	1678668299622818216	CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.o	c67621f3935dff4f
-170	561	1678668299632869020	CMakeFiles/Arboles.dir/Controller/BTree.cpp.o	22dcf6124a3ee961
 3	563	1678668299634745697	CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o	33f2b8188d96fbe9
+4	552	1678668299622818216	CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.o	c67621f3935dff4f
 563	609	1678668299682796495	Arboles	2696b9834c49b9b5
+170	561	1678668299632869020	CMakeFiles/Arboles.dir/Controller/BTree.cpp.o	22dcf6124a3ee961
