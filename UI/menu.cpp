@@ -3,9 +3,10 @@
 //
 
 #include <iostream>
-#include "Model/AVLTreeController.h"
-#include "Model/BPlusTreeController.h"
+#include "ModelGestor/AVLTreeController.h"
+#include "ModelGestor/BPlusTreeController.h"
 #include "Model/RedBlackTree.h"
+#include "ModelGestor/BTreeController.h"
 
 // PROTOTIPO DE FUNCIONES
 void menuPrincipal();
@@ -19,7 +20,7 @@ void imprimir(int arbol);
 // STATIC VARIABLES
 static AVLTreeController *gestorAVL = new AVLTreeController();
 static RedBlackTree *bst = new RedBlackTree();
-// static Btree btree = new Btree();
+static BTreeController *btree = new BTree();
 static BPlusTreeController *bplus = new BPlusTreeController(4);
 
 void InsertBPlus(BPlusTreeController *tree, int value)
@@ -176,7 +177,7 @@ void insertar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    //    btree->insert(input);
+    btree->insert(input);
     break;
   case 4:
     do
@@ -227,7 +228,7 @@ void remover(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    //    gestorAVL->Remove(input);
+      gestorAVL->Delete(input)
     break;
   case 2:
     do
@@ -314,7 +315,7 @@ void buscar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    // gestorAVL->Remove(input);
+
     break;
   case 2:
     do
@@ -350,7 +351,7 @@ void buscar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    //    btree->deleteNode(input);
+    btree->search(input);
     break;
   case 4:
     do
@@ -392,7 +393,7 @@ void imprimir(int arbol)
     bst->printTree();
     break;
   case 3:
-    //    btree->deleteNode(input);
+    btree->print();
     break;
   case 4:
     bplus->Print();
