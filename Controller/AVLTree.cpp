@@ -26,7 +26,7 @@ void AVLTree::SetRoot(Node* node) {
 Node* AVLTree::MinValueNode(Node* currentNode) {
     Node* current = currentNode;
 
-    // Find the smallest leaf
+    // Search the smallest leaf
     while (current->GetLeft() != nullptr) {
         current = current->GetLeft();
     }
@@ -88,7 +88,7 @@ Node* AVLTree::Delete(Node* currentNode, int value) {
         return nullptr;
     }
 
-    // Find node to delete based value
+    // Search node to delete based value
     if (value < currentNode->GetValue()) {  // Less than current node value
         currentNode->SetLeft(Delete(currentNode->GetLeft(), value));
 
@@ -139,6 +139,27 @@ Node* AVLTree::Delete(Node* currentNode, int value) {
     BalanceTree(root);
 
     return currentNode;
+}
+
+bool AVLTree::Search(Node* currentNode, int value) {
+    if (currentNode == nullptr) {
+        return false;
+    }
+
+    // Just found it
+    if (currentNode->GetValue() == value) {
+        return true;
+    }
+
+    // Search in children
+    if (value < currentNode->GetValue()) {
+        return Search(currentNode->GetLeft(), value);
+    }
+    if (value > currentNode->GetValue()) {
+        return Search(currentNode->GetRight(), value);
+    }
+
+    return false;
 }
 
 void AVLTree::CheckForBalance(Node* currentNode) {
@@ -320,7 +341,7 @@ int AVLTree::Height(Node* currentNode, int currentHeight) {
     }
 
     currentHeight++;
-    // Find left and right heights
+    // Search left and right heights
     int leftHeight = Height(currentNode->GetLeft(), currentHeight);
     int rightHeight = Height(currentNode->GetRight(), currentHeight);
 

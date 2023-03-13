@@ -31,6 +31,7 @@ public:
     void Add(Node*, int);
     void AddBalanced(Node*, int);
     Node* Delete(Node*, int);
+    bool Search(Node*, int);
 
     void CheckForBalance(Node*);
     bool BalanceTree(Node*);

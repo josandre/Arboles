@@ -10,17 +10,17 @@ BPlusTreeNode* BPlusTree::Search(BPlusTreeNode* node, int key) {
         return nullptr;
     }
 
-    // Find leaf page
+    // Search leaf page
     BPlusTreeNode* cursor = node;
     while (cursor->IsLeaf() == false) {
         for (int i = 0; i < cursor->GetSize(); i++) {
-            // Find child at the left
+            // Search child at the left
             if (key < cursor->GetItem()[i]) {
                 cursor = cursor->GetChildren()[i];
                 break;
             }
 
-            // Find child at the right
+            // Search child at the right
             if (i == cursor->GetSize() - 1) {
                 cursor = cursor->GetChildren()[i + 1];
             }

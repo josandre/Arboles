@@ -19,6 +19,7 @@ public:
     void Add(int);
     void AddBalanced(int);
     void Delete(int);
+    bool Search(int);
 
     void BalanceTree();
     int Height();

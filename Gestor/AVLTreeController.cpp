@@ -23,6 +23,10 @@ void AVLTreeController::Delete(int value) {
     this->avlTree->Delete(this->avlTree->GetRoot(), value);
 }
 
+bool AVLTreeController::Search(int value) {
+    return this->avlTree->Search(this->avlTree->GetRoot(), value);
+}
+
 void AVLTreeController::BalanceTree() {
     this->avlTree->CheckForBalance(this->avlTree->GetRoot());
     this->avlTree->BalanceTree(this->avlTree->GetRoot());
