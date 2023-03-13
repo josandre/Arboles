@@ -1,7 +1,9 @@
 #include <iostream>
 #include "Model/RedBlackTree.h"
 #include "ModelGestor/BPlusTreeController.h"
+#include "Model/BTree.h"
 #include "ModelGestor/AVLTreeController.h"
+
 
 void InsertBPlus(BPlusTreeController* tree, int value) {
     cout << "INSERT " << value << endl;
@@ -86,14 +88,28 @@ void RedBlackTest() {
 }
 
 void BTreeTest(){
+   BTree *b = new BTree(3);
+   b->insert(10);
+   b->insert(20);
+   b->insert(5);
+   b->insert(6);
+   b->insert(12);
+   b->insert(30);
+   b->insert(7);
+   b->insert(17);
+    cout << "Traversal of the constructed tree is ";
+    b->traverse();
 
+    int k = 6;
+    (b->search(k) != nullptr)? cout << "\nPresent" : cout << "\nNot Present";
+
+    k = 15;
+    (b->search(k) != nullptr)? cout << "\nPresent" : cout << "\nNot Present";
 }
 
 int main() {
-    RedBlackTest();
+    //RedBlackTest();
     //BPlusTest();
-    //AVLTest();
-    //cout << "Btree resultados";
-    //BTree();
+    BTreeTest();
     return 0;
 }

@@ -85,16 +85,16 @@
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/AVLTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/AVLTreeController.cpp">
-			<Option target="Arboles"/>
-		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeController.cpp">
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeNode.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeNode.cpp">
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BTree.cpp">
+			<Option target="Arboles"/>
+		</Unit>
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BtreeNode.cpp">
 			<Option target="Arboles"/>
 		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/Node.cpp">
@@ -106,10 +106,13 @@
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/RedBlackTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h">
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Gestor/AVLTreeController.cpp">
 			<Option target="Arboles"/>
 		</Unit>
-		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeController.h">
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Gestor/BPlusTreeController.cpp">
+			<Option target="Arboles"/>
+		</Unit>
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTree.h">
 			<Option target="Arboles"/>
 		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/BPlusTreeNode.h">
@@ -119,6 +122,9 @@
 			<Option target="Arboles"/>
 		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Model/RedBlackTree.h">
+			<Option target="Arboles"/>
+		</Unit>
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/ModelGestor/BPlusTreeController.h">
 			<Option target="Arboles"/>
 		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/main.cpp">

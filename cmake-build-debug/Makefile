@@ -152,30 +152,6 @@ Controller/AVLTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.s
 .PHONY : Controller/AVLTree.cpp.s
 
-Controller/AVLTreeController.obj: Controller/AVLTreeController.cpp.obj
-.PHONY : Controller/AVLTreeController.obj
-
-# target to build an object file
-Controller/AVLTreeController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/AVLTreeController.cpp.obj
-.PHONY : Controller/AVLTreeController.cpp.obj
-
-Controller/AVLTreeController.i: Controller/AVLTreeController.cpp.i
-.PHONY : Controller/AVLTreeController.i
-
-# target to preprocess a source file
-Controller/AVLTreeController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/AVLTreeController.cpp.i
-.PHONY : Controller/AVLTreeController.cpp.i
-
-Controller/AVLTreeController.s: Controller/AVLTreeController.cpp.s
-.PHONY : Controller/AVLTreeController.s
-
-# target to generate assembly for a file
-Controller/AVLTreeController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/AVLTreeController.cpp.s
-.PHONY : Controller/AVLTreeController.cpp.s
-
 Controller/BPlusTree.obj: Controller/BPlusTree.cpp.obj
 .PHONY : Controller/BPlusTree.obj
 
@@ -200,30 +176,6 @@ Controller/BPlusTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s
 .PHONY : Controller/BPlusTree.cpp.s
 
-Controller/BPlusTreeController.obj: Controller/BPlusTreeController.cpp.obj
-.PHONY : Controller/BPlusTreeController.obj
-
-# target to build an object file
-Controller/BPlusTreeController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.obj
-.PHONY : Controller/BPlusTreeController.cpp.obj
-
-Controller/BPlusTreeController.i: Controller/BPlusTreeController.cpp.i
-.PHONY : Controller/BPlusTreeController.i
-
-# target to preprocess a source file
-Controller/BPlusTreeController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.i
-.PHONY : Controller/BPlusTreeController.cpp.i
-
-Controller/BPlusTreeController.s: Controller/BPlusTreeController.cpp.s
-.PHONY : Controller/BPlusTreeController.s
-
-# target to generate assembly for a file
-Controller/BPlusTreeController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.s
-.PHONY : Controller/BPlusTreeController.cpp.s
-
 Controller/BPlusTreeNode.obj: Controller/BPlusTreeNode.cpp.obj
 .PHONY : Controller/BPlusTreeNode.obj
 
@@ -247,6 +199,54 @@ Controller/BPlusTreeNode.s: Controller/BPlusTreeNode.cpp.s
 Controller/BPlusTreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s
 .PHONY : Controller/BPlusTreeNode.cpp.s
+
+Controller/BTree.obj: Controller/BTree.cpp.obj
+.PHONY : Controller/BTree.obj
+
+# target to build an object file
+Controller/BTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BTree.cpp.obj
+.PHONY : Controller/BTree.cpp.obj
+
+Controller/BTree.i: Controller/BTree.cpp.i
+.PHONY : Controller/BTree.i
+
+# target to preprocess a source file
+Controller/BTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BTree.cpp.i
+.PHONY : Controller/BTree.cpp.i
+
+Controller/BTree.s: Controller/BTree.cpp.s
+.PHONY : Controller/BTree.s
+
+# target to generate assembly for a file
+Controller/BTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BTree.cpp.s
+.PHONY : Controller/BTree.cpp.s
+
+Controller/BtreeNode.obj: Controller/BtreeNode.cpp.obj
+.PHONY : Controller/BtreeNode.obj
+
+# target to build an object file
+Controller/BtreeNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.obj
+.PHONY : Controller/BtreeNode.cpp.obj
+
+Controller/BtreeNode.i: Controller/BtreeNode.cpp.i
+.PHONY : Controller/BtreeNode.i
+
+# target to preprocess a source file
+Controller/BtreeNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.i
+.PHONY : Controller/BtreeNode.cpp.i
+
+Controller/BtreeNode.s: Controller/BtreeNode.cpp.s
+.PHONY : Controller/BtreeNode.s
+
+# target to generate assembly for a file
+Controller/BtreeNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.s
+.PHONY : Controller/BtreeNode.cpp.s
 
 Controller/Node.obj: Controller/Node.cpp.obj
 .PHONY : Controller/Node.obj
@@ -320,6 +320,54 @@ Controller/RedBlackTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s
 .PHONY : Controller/RedBlackTree.cpp.s
 
+Gestor/AVLTreeController.obj: Gestor/AVLTreeController.cpp.obj
+.PHONY : Gestor/AVLTreeController.obj
+
+# target to build an object file
+Gestor/AVLTreeController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.obj
+.PHONY : Gestor/AVLTreeController.cpp.obj
+
+Gestor/AVLTreeController.i: Gestor/AVLTreeController.cpp.i
+.PHONY : Gestor/AVLTreeController.i
+
+# target to preprocess a source file
+Gestor/AVLTreeController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i
+.PHONY : Gestor/AVLTreeController.cpp.i
+
+Gestor/AVLTreeController.s: Gestor/AVLTreeController.cpp.s
+.PHONY : Gestor/AVLTreeController.s
+
+# target to generate assembly for a file
+Gestor/AVLTreeController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s
+.PHONY : Gestor/AVLTreeController.cpp.s
+
+Gestor/BPlusTreeController.obj: Gestor/BPlusTreeController.cpp.obj
+.PHONY : Gestor/BPlusTreeController.obj
+
+# target to build an object file
+Gestor/BPlusTreeController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.obj
+.PHONY : Gestor/BPlusTreeController.cpp.obj
+
+Gestor/BPlusTreeController.i: Gestor/BPlusTreeController.cpp.i
+.PHONY : Gestor/BPlusTreeController.i
+
+# target to preprocess a source file
+Gestor/BPlusTreeController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i
+.PHONY : Gestor/BPlusTreeController.cpp.i
+
+Gestor/BPlusTreeController.s: Gestor/BPlusTreeController.cpp.s
+.PHONY : Gestor/BPlusTreeController.s
+
+# target to generate assembly for a file
+Gestor/BPlusTreeController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arboles.dir\build.make CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s
+.PHONY : Gestor/BPlusTreeController.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -356,18 +404,18 @@ help:
 	@echo ... Controller/AVLTree.obj
 	@echo ... Controller/AVLTree.i
 	@echo ... Controller/AVLTree.s
-	@echo ... Controller/AVLTreeController.obj
-	@echo ... Controller/AVLTreeController.i
-	@echo ... Controller/AVLTreeController.s
 	@echo ... Controller/BPlusTree.obj
 	@echo ... Controller/BPlusTree.i
 	@echo ... Controller/BPlusTree.s
-	@echo ... Controller/BPlusTreeController.obj
-	@echo ... Controller/BPlusTreeController.i
-	@echo ... Controller/BPlusTreeController.s
 	@echo ... Controller/BPlusTreeNode.obj
 	@echo ... Controller/BPlusTreeNode.i
 	@echo ... Controller/BPlusTreeNode.s
+	@echo ... Controller/BTree.obj
+	@echo ... Controller/BTree.i
+	@echo ... Controller/BTree.s
+	@echo ... Controller/BtreeNode.obj
+	@echo ... Controller/BtreeNode.i
+	@echo ... Controller/BtreeNode.s
 	@echo ... Controller/Node.obj
 	@echo ... Controller/Node.i
 	@echo ... Controller/Node.s
@@ -377,6 +425,12 @@ help:
 	@echo ... Controller/RedBlackTree.obj
 	@echo ... Controller/RedBlackTree.i
 	@echo ... Controller/RedBlackTree.s
+	@echo ... Gestor/AVLTreeController.obj
+	@echo ... Gestor/AVLTreeController.i
+	@echo ... Gestor/AVLTreeController.s
+	@echo ... Gestor/BPlusTreeController.obj
+	@echo ... Gestor/BPlusTreeController.i
+	@echo ... Gestor/BPlusTreeController.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

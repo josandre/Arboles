@@ -118,6 +118,36 @@ build CMakeFiles/Arboles.dir/Controller/Node.cpp.o: CXX_COMPILER__Arboles_Debug 
   TARGET_COMPILE_PDB = CMakeFiles/Arboles.dir/
   TARGET_PDB = Arboles.pdb
 
+build CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: CXX_COMPILER__Arboles_Debug /Users/jocselynaguilar/CLionProjects/Arboles/Controller/BPlusTreeNode.cpp || cmake_object_order_depends_target_Arboles
+  DEP_FILE = CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Arboles.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arboles.dir/Controller
+
+build CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: CXX_COMPILER__Arboles_Debug /Users/jocselynaguilar/CLionProjects/Arboles/Controller/BPlusTree.cpp || cmake_object_order_depends_target_Arboles
+  DEP_FILE = CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Arboles.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arboles.dir/Controller
+
+build CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.o: CXX_COMPILER__Arboles_Debug /Users/jocselynaguilar/CLionProjects/Arboles/Controller/BPlusTreeController.cpp || cmake_object_order_depends_target_Arboles
+  DEP_FILE = CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Arboles.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arboles.dir/Controller
+
+build CMakeFiles/Arboles.dir/Controller/BTree.cpp.o: CXX_COMPILER__Arboles_Debug /Users/jocselynaguilar/CLionProjects/Arboles/Controller/BTree.cpp || cmake_object_order_depends_target_Arboles
+  DEP_FILE = CMakeFiles/Arboles.dir/Controller/BTree.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Arboles.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arboles.dir/Controller
+
+build CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o: CXX_COMPILER__Arboles_Debug /Users/jocselynaguilar/CLionProjects/Arboles/Controller/BtreeNode.cpp || cmake_object_order_depends_target_Arboles
+  DEP_FILE = CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Arboles.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arboles.dir/Controller
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Arboles
@@ -126,7 +156,7 @@ build CMakeFiles/Arboles.dir/Controller/Node.cpp.o: CXX_COMPILER__Arboles_Debug 
 #############################################
 # Link the executable Arboles
 
-build Arboles: CXX_EXECUTABLE_LINKER__Arboles_Debug CMakeFiles/Arboles.dir/main.cpp.o CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.o CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o CMakeFiles/Arboles.dir/Controller/AVLTreeController.cpp.o CMakeFiles/Arboles.dir/Controller/Node.cpp.o
+build Arboles: CXX_EXECUTABLE_LINKER__Arboles_Debug CMakeFiles/Arboles.dir/main.cpp.o CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o CMakeFiles/Arboles.dir/Controller/BPlusTreeController.cpp.o CMakeFiles/Arboles.dir/Controller/BTree.cpp.o CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Arboles.dir
   POST_BUILD = :
