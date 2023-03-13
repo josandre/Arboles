@@ -1,10 +1,10 @@
 #ifndef TREEMANAGER_H
 #define TREEMANAGER_H
 
-#include "ModelGestor/AVLTreeController.h"
-#include "ModelGestor/BPlusTreeController.h"
-#include "Model/RedBlackTree.h"
-#include "ModelGestor/BTreeController.h"
+#include "../ModelGestor/AVLTreeController.h"
+#include "../ModelGestor/BPlusTreeController.h"
+#include "../Model/RedBlackTree.h"
+#include "../ModelGestor/BTreeController.h"
 
 void menuPrincipal();
 int menuOpciones(int arbol);
