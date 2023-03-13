@@ -16,7 +16,7 @@ public:
   void traverse();
   BTreeNode *search(int key);
   void insert(int key);
-  void deletion(int key);
+  bool deletion(int key);
 };
 
 #endif // BTREECONTROLLER_H

@@ -22,8 +22,11 @@
   }
 
 
-  void BTreeController::deletion(int key)
+  bool BTreeController::deletion(int key)
   {
+    bool exists = search(key);
     bTree->deletion(key);
+
+    return exists;
   }
 

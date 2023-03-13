@@ -19,8 +19,11 @@ void AVLTreeController::AddBalanced(int value) {
     this->avlTree->AddBalanced(this->avlTree->GetRoot(), value);
 }
 
-void AVLTreeController::Delete(int value) {
+bool AVLTreeController::Delete(int value) {
+    bool exists = this->avlTree->Search(this->avlTree->GetRoot(), value);
     this->avlTree->Delete(this->avlTree->GetRoot(), value);
+
+    return exists;
 }
 
 bool AVLTreeController::Search(int value) {

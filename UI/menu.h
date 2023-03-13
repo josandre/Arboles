@@ -12,10 +12,12 @@ public:
     void menuPrincipal();
     void menuOpciones(int arbol);
     int menuOpcionesFun(int arbol, int answer);
+    void insertarDatosDePrueba();
     void insertar(int arbol);
     void remover(int arbol);
     void buscar(int arbol);
     void imprimir(int arbol);
+    void datosEntreEstructuras();
 };
 
 

@@ -13,7 +13,7 @@ public:
     RedBlackController();
     void insert(int);
     bool searchTree(int);
-    void deleteNode(int);
+    bool deleteNode(int);
     void printTree();
 
 private:

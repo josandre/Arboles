@@ -12,8 +12,11 @@ void RedBlackController::insert(int key) {
     redBlackTree->insert(key);
 }
 
-void RedBlackController::deleteNode(int key) {
+bool RedBlackController::deleteNode(int key) {
+    bool exists = redBlackTree->searchTree(key);
     redBlackTree->deleteNode(key);
+
+    return exists;
 }
 
 bool RedBlackController::searchTree(int key) {

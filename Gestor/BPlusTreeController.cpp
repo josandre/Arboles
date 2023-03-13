@@ -17,11 +17,15 @@ bool BPlusTreeController::Search(int data) {
 }
 
 // Generates a new tree based on the previous one but without the key that is removed
-void BPlusTreeController::Remove(int data) {
+bool BPlusTreeController::Remove(int data) {
+    bool exists = this->tree->Search(data);
+
     BPlusTree* oldTree = this->tree;
     this->tree = oldTree->Remove(data);
 
     delete oldTree;
+
+    return exists;
 }
 
 void BPlusTreeController::Print() {

@@ -18,7 +18,7 @@ public:
     // Methods
     void Add(int);
     void AddBalanced(int);
-    void Delete(int);
+    bool Delete(int);
     bool Search(int);
 
     void BalanceTree();

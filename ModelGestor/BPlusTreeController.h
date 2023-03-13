@@ -24,7 +24,7 @@ public:
     bool Search(int);
 
     // Generates a new tree based on the previous one but without the key that is removed
-    void Remove(int);
+    bool Remove(int);
 
     // Prints the tree structure in the console
     void Print();
