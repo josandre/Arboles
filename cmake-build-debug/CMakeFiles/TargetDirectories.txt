@@ -1,3 +1,0 @@
-/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles/Arboles.dir
-/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
