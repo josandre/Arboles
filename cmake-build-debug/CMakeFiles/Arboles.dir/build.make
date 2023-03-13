@@ -83,80 +83,24 @@ CMakeFiles/Arboles.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/main.cpp -o CMakeFiles/Arboles.dir/main.cpp.s
 
-CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o: ../Controller/RedBlackTree.cpp
-CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp
+CMakeFiles/Arboles.dir/UI/menu.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/UI/menu.cpp.o: ../UI/menu.cpp
+CMakeFiles/Arboles.dir/UI/menu.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Arboles.dir/UI/menu.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/UI/menu.cpp.o -MF CMakeFiles/Arboles.dir/UI/menu.cpp.o.d -o CMakeFiles/Arboles.dir/UI/menu.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/UI/menu.cpp
 
-CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp > CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.i
+CMakeFiles/Arboles.dir/UI/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/UI/menu.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/UI/menu.cpp > CMakeFiles/Arboles.dir/UI/menu.cpp.i
 
-CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp -o CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s
-
-CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o: ../Controller/NodeRedBlackTree.cpp
-CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp
-
-CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp > CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.i
-
-CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp -o CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.s
-
-CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: ../Controller/BPlusTreeNode.cpp
-CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o -MF CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp
-
-CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp > CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.i
-
-CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp -o CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s
-
-CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: ../Controller/BPlusTree.cpp
-CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp
-
-CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp > CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.i
-
-CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp -o CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s
-
-CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o: ../Gestor/BPlusTreeController.cpp
-CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o -MF CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o.d -o CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp
-
-CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp > CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i
-
-CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp -o CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s
+CMakeFiles/Arboles.dir/UI/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/UI/menu.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/UI/menu.cpp -o CMakeFiles/Arboles.dir/UI/menu.cpp.s
 
 CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
 CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o: ../Controller/AVLTree.cpp
 CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/AVLTree.cpp
 
 CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.i: cmake_force
@@ -167,38 +111,38 @@ CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/AVLTree.cpp -o CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.s
 
-CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o: ../Gestor/AVLTreeController.cpp
-CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o -MF CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o.d -o CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp
+CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: ../Controller/BPlusTree.cpp
+CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp
 
-CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp > CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i
+CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp > CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.i
 
-CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp -o CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s
+CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTree.cpp -o CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.s
 
-CMakeFiles/Arboles.dir/Controller/Node.cpp.o: CMakeFiles/Arboles.dir/flags.make
-CMakeFiles/Arboles.dir/Controller/Node.cpp.o: ../Controller/Node.cpp
-CMakeFiles/Arboles.dir/Controller/Node.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Arboles.dir/Controller/Node.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/Node.cpp.o -MF CMakeFiles/Arboles.dir/Controller/Node.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/Node.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp
+CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: ../Controller/BPlusTreeNode.cpp
+CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o -MF CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp
 
-CMakeFiles/Arboles.dir/Controller/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/Node.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp > CMakeFiles/Arboles.dir/Controller/Node.cpp.i
+CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp > CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.i
 
-CMakeFiles/Arboles.dir/Controller/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/Node.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp -o CMakeFiles/Arboles.dir/Controller/Node.cpp.s
+CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BPlusTreeNode.cpp -o CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.s
 
 CMakeFiles/Arboles.dir/Controller/BTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
 CMakeFiles/Arboles.dir/Controller/BTree.cpp.o: ../Controller/BTree.cpp
 CMakeFiles/Arboles.dir/Controller/BTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Arboles.dir/Controller/BTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Arboles.dir/Controller/BTree.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/BTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/BTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/BTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BTree.cpp
 
 CMakeFiles/Arboles.dir/Controller/BTree.cpp.i: cmake_force
@@ -212,7 +156,7 @@ CMakeFiles/Arboles.dir/Controller/BTree.cpp.s: cmake_force
 CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o: CMakeFiles/Arboles.dir/flags.make
 CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o: ../Controller/BtreeNode.cpp
 CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o -MF CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BtreeNode.cpp
 
 CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.i: cmake_force
@@ -223,37 +167,141 @@ CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/BtreeNode.cpp -o CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.s
 
+CMakeFiles/Arboles.dir/Controller/Node.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Controller/Node.cpp.o: ../Controller/Node.cpp
+CMakeFiles/Arboles.dir/Controller/Node.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Arboles.dir/Controller/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/Node.cpp.o -MF CMakeFiles/Arboles.dir/Controller/Node.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/Node.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp
+
+CMakeFiles/Arboles.dir/Controller/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp > CMakeFiles/Arboles.dir/Controller/Node.cpp.i
+
+CMakeFiles/Arboles.dir/Controller/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/Node.cpp -o CMakeFiles/Arboles.dir/Controller/Node.cpp.s
+
+CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o: ../Controller/NodeRedBlackTree.cpp
+CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp
+
+CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp > CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.i
+
+CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/NodeRedBlackTree.cpp -o CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.s
+
+CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o: ../Controller/RedBlackTree.cpp
+CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o -MF CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o.d -o CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp
+
+CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp > CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.i
+
+CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Controller/RedBlackTree.cpp -o CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.s
+
+CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o: ../Gestor/AVLTreeController.cpp
+CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o -MF CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o.d -o CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp
+
+CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp > CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.i
+
+CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/AVLTreeController.cpp -o CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.s
+
+CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o: ../Gestor/BPlusTreeController.cpp
+CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o -MF CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o.d -o CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp
+
+CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp > CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.i
+
+CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BPlusTreeController.cpp -o CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s
+
+CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o: ../Gestor/BTreeController.cpp
+CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o -MF CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o.d -o CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BTreeController.cpp
+
+CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BTreeController.cpp > CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.i
+
+CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/BTreeController.cpp -o CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.s
+
+CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o: CMakeFiles/Arboles.dir/flags.make
+CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o: ../Gestor/RedBlackController.cpp
+CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o: CMakeFiles/Arboles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o -MF CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o.d -o CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o -c /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/RedBlackController.cpp
+
+CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/RedBlackController.cpp > CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.i
+
+CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/Gestor/RedBlackController.cpp -o CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.s
+
 # Object files for target Arboles
 Arboles_OBJECTS = \
 "CMakeFiles/Arboles.dir/main.cpp.o" \
-"CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o" \
-"CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o" \
-"CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o" \
-"CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o" \
-"CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o" \
+"CMakeFiles/Arboles.dir/UI/menu.cpp.o" \
 "CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o" \
-"CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o" \
-"CMakeFiles/Arboles.dir/Controller/Node.cpp.o" \
+"CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o" \
+"CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o" \
 "CMakeFiles/Arboles.dir/Controller/BTree.cpp.o" \
-"CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o"
+"CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o" \
+"CMakeFiles/Arboles.dir/Controller/Node.cpp.o" \
+"CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o" \
+"CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o" \
+"CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o" \
+"CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o" \
+"CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o" \
+"CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o"
 
 # External object files for target Arboles
 Arboles_EXTERNAL_OBJECTS =
 
 Arboles: CMakeFiles/Arboles.dir/main.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o
+Arboles: CMakeFiles/Arboles.dir/UI/menu.cpp.o
 Arboles: CMakeFiles/Arboles.dir/Controller/AVLTree.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o
-Arboles: CMakeFiles/Arboles.dir/Controller/Node.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Controller/BPlusTree.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Controller/BPlusTreeNode.cpp.o
 Arboles: CMakeFiles/Arboles.dir/Controller/BTree.cpp.o
 Arboles: CMakeFiles/Arboles.dir/Controller/BtreeNode.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Controller/Node.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Controller/NodeRedBlackTree.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Controller/RedBlackTree.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o
+Arboles: CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o
 Arboles: CMakeFiles/Arboles.dir/build.make
 Arboles: CMakeFiles/Arboles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Arboles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jocselynaguilar/Documents/PrimerCuatri2/Arboles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Arboles"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Arboles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

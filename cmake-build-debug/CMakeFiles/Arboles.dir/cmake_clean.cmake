@@ -21,6 +21,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/Arboles.dir/Gestor/AVLTreeController.cpp.o.d"
   "CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o"
   "CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.o.d"
+  "CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o"
+  "CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o.d"
+  "CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o"
+  "CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o.d"
+  "CMakeFiles/Arboles.dir/UI/menu.cpp.o"
+  "CMakeFiles/Arboles.dir/UI/menu.cpp.o.d"
   "CMakeFiles/Arboles.dir/main.cpp.o"
   "CMakeFiles/Arboles.dir/main.cpp.o.d"
 )

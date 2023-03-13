@@ -59,3 +59,8 @@ void BTree::deletion(int k) {
     }
     return;
 }
+
+
+BTreeNode *BTree::search(int k) {
+    return (root == nullptr) ? nullptr : root->search(k);
+}

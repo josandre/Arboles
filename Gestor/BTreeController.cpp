@@ -1,50 +1,29 @@
 #include "../Model/BTree.h"
+#include "../ModelGestor/BTreeController.h"
 
-class BTreeController
-{
-private:
-  BTree *bTree;
-
-public:
-  BTreeController(int t)
+  BTreeController::BTreeController(int t)
   {
     bTree = new BTree(t);
   }
 
-  void traverse()
+  void BTreeController::traverse()
   {
     bTree->traverse();
   }
 
-  BTreeNode *search(int key)
+  BTreeNode *BTreeController::search(int key)
   {
     return bTree->search(key);
   }
 
-  void insert(int key)
+  void BTreeController::insert(int key)
   {
     bTree->insert(key);
   }
 
-  void print()
-  {
-    string *lines = new string[100];
-    for (int i = 0; i < 100; i++)
-    {
-      lines[i] = "";
-    }
-    bTree->print(bTree->getRoot(), lines, 0);
-    for (int i = 0; i < 100; i++)
-    {
-      if (lines[i] != "")
-      {
-        cout << lines[i] << endl;
-      }
-    }
-    delete[] lines;
-  }
-  void deletion(int key)
+
+  void BTreeController::deletion(int key)
   {
     bTree->deletion(key);
   }
-};
+

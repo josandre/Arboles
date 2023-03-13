@@ -369,6 +369,78 @@ Gestor/BPlusTreeController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/BPlusTreeController.cpp.s
 .PHONY : Gestor/BPlusTreeController.cpp.s
 
+Gestor/BTreeController.o: Gestor/BTreeController.cpp.o
+.PHONY : Gestor/BTreeController.o
+
+# target to build an object file
+Gestor/BTreeController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.o
+.PHONY : Gestor/BTreeController.cpp.o
+
+Gestor/BTreeController.i: Gestor/BTreeController.cpp.i
+.PHONY : Gestor/BTreeController.i
+
+# target to preprocess a source file
+Gestor/BTreeController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.i
+.PHONY : Gestor/BTreeController.cpp.i
+
+Gestor/BTreeController.s: Gestor/BTreeController.cpp.s
+.PHONY : Gestor/BTreeController.s
+
+# target to generate assembly for a file
+Gestor/BTreeController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/BTreeController.cpp.s
+.PHONY : Gestor/BTreeController.cpp.s
+
+Gestor/RedBlackController.o: Gestor/RedBlackController.cpp.o
+.PHONY : Gestor/RedBlackController.o
+
+# target to build an object file
+Gestor/RedBlackController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.o
+.PHONY : Gestor/RedBlackController.cpp.o
+
+Gestor/RedBlackController.i: Gestor/RedBlackController.cpp.i
+.PHONY : Gestor/RedBlackController.i
+
+# target to preprocess a source file
+Gestor/RedBlackController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.i
+.PHONY : Gestor/RedBlackController.cpp.i
+
+Gestor/RedBlackController.s: Gestor/RedBlackController.cpp.s
+.PHONY : Gestor/RedBlackController.s
+
+# target to generate assembly for a file
+Gestor/RedBlackController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/Gestor/RedBlackController.cpp.s
+.PHONY : Gestor/RedBlackController.cpp.s
+
+UI/menu.o: UI/menu.cpp.o
+.PHONY : UI/menu.o
+
+# target to build an object file
+UI/menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/UI/menu.cpp.o
+.PHONY : UI/menu.cpp.o
+
+UI/menu.i: UI/menu.cpp.i
+.PHONY : UI/menu.i
+
+# target to preprocess a source file
+UI/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/UI/menu.cpp.i
+.PHONY : UI/menu.cpp.i
+
+UI/menu.s: UI/menu.cpp.s
+.PHONY : UI/menu.s
+
+# target to generate assembly for a file
+UI/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arboles.dir/build.make CMakeFiles/Arboles.dir/UI/menu.cpp.s
+.PHONY : UI/menu.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -432,6 +504,15 @@ help:
 	@echo "... Gestor/BPlusTreeController.o"
 	@echo "... Gestor/BPlusTreeController.i"
 	@echo "... Gestor/BPlusTreeController.s"
+	@echo "... Gestor/BTreeController.o"
+	@echo "... Gestor/BTreeController.i"
+	@echo "... Gestor/BTreeController.s"
+	@echo "... Gestor/RedBlackController.o"
+	@echo "... Gestor/RedBlackController.i"
+	@echo "... Gestor/RedBlackController.s"
+	@echo "... UI/menu.o"
+	@echo "... UI/menu.i"
+	@echo "... UI/menu.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

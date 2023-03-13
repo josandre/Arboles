@@ -3,4 +3,4 @@ project(Arboles)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Arboles main.cpp Controller/AVLTree.cpp Controller/BPlusTree.cpp Controller/BPlusTreeNode.cpp Controller/BTree.cpp Controller/BtreeNode.cpp Controller/Node.cpp Controller/NodeRedBlackTree.cpp Controller/RedBlackTree.cpp Gestor/AVLTreeController.cpp Gestor/BPlusTreeController.cpp Gestor/BTreeController.cpp UI/menu.cpp)
+add_executable(Arboles main.cpp UI/menu.cpp UI/menu.h Controller/AVLTree.cpp Model/AVLTree.h Controller/BPlusTree.cpp Model/BPlusTree.h Controller/BPlusTreeNode.cpp Model/BPlusTreeNode.h Controller/BTree.cpp Model/BTree.h Controller/BtreeNode.cpp Model/BtreeNode.h Controller/Node.cpp Model/Node.h Controller/NodeRedBlackTree.cpp Model/NodeRedBlackTree.h Controller/RedBlackTree.cpp Model/RedBlackTree.h Gestor/AVLTreeController.cpp ModelGestor/AVLTreeController.h Gestor/BPlusTreeController.cpp ModelGestor/BPlusTreeController.h ModelGestor/BTreeController.h Gestor/BTreeController.cpp Gestor/RedBlackController.cpp ModelGestor/RedBlackController.h)

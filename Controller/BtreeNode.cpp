@@ -264,4 +264,18 @@ void BTreeNode::merge(int idx) {
     return;
 }
 
+BTreeNode *BTreeNode::search(int k) {
+    int i = 0;
+    while (i < n && k > keys[i])
+        i++;
+
+    if (keys[i] == k)
+        return this;
+
+    if (leaf)
+        return nullptr;
+
+    return C[i]->search(k);
+}
+
 
