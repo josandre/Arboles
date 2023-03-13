@@ -315,7 +315,7 @@ void buscar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-
+    gestorAVL->Search(input);
     break;
   case 2:
     do
