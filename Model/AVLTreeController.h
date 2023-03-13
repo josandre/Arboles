@@ -18,6 +18,7 @@ public:
     // Methods
     void Add(int);
     void AddBalanced(int);
+    void Delete(int);
 
     void BalanceTree();
     int Height();

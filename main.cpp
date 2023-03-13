@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Model/RedBlackTree.h"
 #include "Model/BPlusTreeController.h"
+#include "Model/AVLTreeController.h"
 
 void InsertBPlus(BPlusTreeController* tree, int value) {
     cout << "INSERT " << value << endl;
@@ -39,6 +40,37 @@ void BPlusTest() {
     tree->Print();
 
 }
+void AVLTest() {
+    AVLTreeController* avlTree = new AVLTreeController();
+
+    avlTree->AddBalanced(1);
+    avlTree->AddBalanced(2);
+    avlTree->AddBalanced(3);
+    avlTree->AddBalanced(4);
+    avlTree->AddBalanced(5);
+    avlTree->AddBalanced(6);
+    avlTree->AddBalanced(7);
+    avlTree->AddBalanced(8);
+    avlTree->AddBalanced(9);
+    avlTree->AddBalanced(10);
+
+    avlTree->Print();
+
+    cout << "REMOVE 4" << endl;
+    avlTree->Delete(4);
+    cout << "" << endl << endl;
+    avlTree->Print();
+
+    cout << "REMOVE 2" << endl;
+    avlTree->Delete(2);
+    cout << "" << endl << endl;
+    avlTree->Print();
+
+    cout << "REMOVE 9" << endl;
+    avlTree->Delete(9);
+    cout << "" << endl << endl;
+    avlTree->Print();
+}
 
 void RedBlackTest() {
     RedBlackTree *bst = new RedBlackTree();
@@ -56,6 +88,6 @@ void RedBlackTest() {
 int main() {
     RedBlackTest();
     //BPlusTest();
-
+    //AVLTest();
     return 0;
 }

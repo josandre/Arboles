@@ -23,6 +23,17 @@ void AVLTree::SetRoot(Node* node) {
     this->root = node;
 }
 
+Node* AVLTree::MinValueNode(Node* currentNode) {
+    Node* current = currentNode;
+
+    // Find the smallest leaf
+    while (current->GetLeft() != nullptr) {
+        current = current->GetLeft();
+    }
+
+    return current;
+}
+
 // Methods
 void AVLTree::Add(Node* currentNode, int value) {
     if (currentNode == nullptr) {
@@ -69,6 +80,65 @@ void AVLTree::AddBalanced(Node* currentNode, int value) {
     Add(currentNode, value);
     CheckForBalance(currentNode);
     BalanceTree(currentNode);
+}
+
+Node* AVLTree::Delete(Node* currentNode, int value) {
+
+    if (currentNode == nullptr) {
+        return nullptr;
+    }
+
+    // Find node to delete based value
+    if (value < currentNode->GetValue()) {  // Less than current node value
+        currentNode->SetLeft(Delete(currentNode->GetLeft(), value));
+
+    } else if (value > currentNode->GetValue()) {   // Greater than current node value
+        currentNode->SetRight(Delete(currentNode->GetRight(), value));
+
+    } else { // We found the node to be deleted
+        // Node with one child or none
+        if (currentNode->GetLeft() == nullptr ||
+            currentNode->GetRight() == nullptr) {
+            Node *temp = currentNode->GetLeft();
+            if (temp == nullptr) {
+                temp = currentNode->GetRight();
+            }
+
+            // No child case
+            if (temp == nullptr) {
+                temp = currentNode;
+                currentNode = nullptr;
+                // One child case
+            } else {
+                // Copy content
+                *currentNode = *temp;
+            }
+
+            // Clear node
+            delete temp;
+            // Node with two children
+        } else {
+            // Get the inorder successor (Smallest node in the right subtree)
+            Node *temp = MinValueNode(currentNode->GetRight());
+
+            // Get smallest data to current node
+            currentNode->SetValue(temp->GetValue());
+
+            // Delete the inorder successor
+            currentNode->SetRight(Delete(currentNode->GetRight(), temp->GetValue()));
+        }
+    }
+
+    // If the tree only had one node then return
+    if (currentNode == nullptr) {
+        return nullptr;
+    }
+
+    // Balance tree
+    CheckForBalance(root);
+    BalanceTree(root);
+
+    return currentNode;
 }
 
 void AVLTree::CheckForBalance(Node* currentNode) {

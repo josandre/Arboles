@@ -15,6 +15,8 @@ class AVLTree {
 private:
     Node* root;
 
+    Node* MinValueNode(Node*);
+
 public:
     // Constructor
     explicit AVLTree();
@@ -28,6 +30,7 @@ public:
     // Methods
     void Add(Node*, int);
     void AddBalanced(Node*, int);
+    Node* Delete(Node*, int);
 
     void CheckForBalance(Node*);
     bool BalanceTree(Node*);

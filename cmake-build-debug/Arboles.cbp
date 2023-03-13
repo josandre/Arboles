@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/AVLTree.cpp">
+			<Option target="Arboles"/>
+		</Unit>
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/AVLTreeController.cpp">
+			<Option target="Arboles"/>
+		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTree.cpp">
 			<Option target="Arboles"/>
 		</Unit>
@@ -89,6 +95,9 @@
 			<Option target="Arboles"/>
 		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/BPlusTreeNode.cpp">
+			<Option target="Arboles"/>
+		</Unit>
+		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/Node.cpp">
 			<Option target="Arboles"/>
 		</Unit>
 		<Unit filename="C:/Users/tsegura/Documents/Universidad/EstructurasDeDatos2/Repos/Arboles/Arboles/Controller/NodeRedBlackTree.cpp">

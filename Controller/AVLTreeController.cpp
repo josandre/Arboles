@@ -14,8 +14,13 @@ void AVLTreeController::Add(int value) {
     this->avlTree->Add(this->avlTree->GetRoot(), value);
 }
 
+
 void AVLTreeController::AddBalanced(int value) {
     this->avlTree->AddBalanced(this->avlTree->GetRoot(), value);
+}
+
+void AVLTreeController::Delete(int value) {
+    this->avlTree->Delete(this->avlTree->GetRoot(), value);
 }
 
 void AVLTreeController::BalanceTree() {
