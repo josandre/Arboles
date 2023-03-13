@@ -8,13 +8,14 @@
 #include "../ModelGestor/BPlusTreeController.h"
 #include "../Model/RedBlackTree.h"
 #include "../ModelGestor/BTreeController.h"
+#include "../ModelGestor/RedBlackController.h"
 #include "../UI/menu.h"
 
 
 
 // STATIC VARIABLES
 static AVLTreeController *gestorAVL = new AVLTreeController();
-static RedBlackTree *bst = new RedBlackTree();
+static RedBlackController *bst = new RedBlackController();
 static BTreeController *btree = new BTreeController(5);
 static BPlusTreeController *bplus = new BPlusTreeController(4);
 
@@ -247,7 +248,12 @@ void Menu::buscar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    bst->searchTree(input);
+    if(bst->searchTree(input)){
+        cout << "El número " << input << " si se encuentra en la estructura" << endl;
+    } else{
+        cout << "El número no existe en la estructura" << endl;
+    }
+
     break;
   case 3:
     do
@@ -387,7 +393,6 @@ void Menu::menuOpciones(int arbol)
 {
     int answer;
     bool keepLooping = true;
-
     do
     {
         cout << "-------------------------------------" << endl;
@@ -411,5 +416,4 @@ void Menu::menuOpciones(int arbol)
             keepLooping = true;
         }
     } while (keepLooping);
-
 }

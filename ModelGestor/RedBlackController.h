@@ -12,7 +12,7 @@ class RedBlackController {
 public:
     RedBlackController();
     void insert(int);
-    NodeRedBlackTree *searchTree(int);
+    bool searchTree(int);
     void deleteNode(int);
     void printTree();
 

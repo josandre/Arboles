@@ -46,10 +46,16 @@ void RedBlackTree::postOrdenHelper(NodeRedBlackTree *node) {
     }
 }
 
-NodeRedBlackTree *RedBlackTree::searchTreeHelper(NodeRedBlackTree *node, int data) {
-    if(node == this->tnull || data == node->getData()){
-        return node;
+bool RedBlackTree::searchTreeHelper(NodeRedBlackTree *node, int data) {
+    if(node == this->tnull){
+        return false;
     }
+
+    if( data == node->getData()){
+        return true;
+    }
+
+
 
     if(data < node->getData()){
         return searchTreeHelper(node->getLeft(), data);
@@ -322,7 +328,7 @@ void RedBlackTree::postOrden() {
     postOrdenHelper(this->root);
 }
 
-NodeRedBlackTree *RedBlackTree::searchTree(int data) {
+bool RedBlackTree::searchTree(int data) {
     return searchTreeHelper(this->root, data);
 }
 

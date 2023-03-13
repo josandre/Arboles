@@ -16,7 +16,7 @@ void RedBlackController::deleteNode(int key) {
     redBlackTree->deleteNode(key);
 }
 
-NodeRedBlackTree *RedBlackController::searchTree(int key) {
+bool RedBlackController::searchTree(int key) {
     return redBlackTree->searchTree(key);
 }
 

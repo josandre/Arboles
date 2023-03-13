@@ -25,7 +25,7 @@ public:
     void preOrder();
     void inOrder();
     void postOrden();
-    NodeRedBlackTree *searchTree(int);
+    bool searchTree(int);
     NodeRedBlackTree *getRoot();
     void deleteNode(int);
     void printTree();
@@ -41,7 +41,7 @@ private:
     void preOrderHelper(NodeRedBlackTree *);
     void inOrderHelper(NodeRedBlackTree *);
     void postOrdenHelper(NodeRedBlackTree *);
-    NodeRedBlackTree *searchTreeHelper(NodeRedBlackTree *, int);
+    bool searchTreeHelper(NodeRedBlackTree *, int);
     void deleteFiX(NodeRedBlackTree *);
     void rbTransplant(NodeRedBlackTree *, NodeRedBlackTree *);
     void deleteNodeHelper(NodeRedBlackTree *, int);
