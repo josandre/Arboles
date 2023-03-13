@@ -97,6 +97,7 @@ void BTreeTest(){
    b->insert(30);
    b->insert(7);
    b->insert(17);
+   /*
     cout << "Traversal of the constructed tree is ";
     b->traverse();
 
@@ -105,6 +106,20 @@ void BTreeTest(){
 
     k = 15;
     (b->search(k) != nullptr)? cout << "\nPresent" : cout << "\nNot Present";
+    */
+    string* messageArray = new string[100];
+    for (int i = 0; i < messageArray->size(); i++) {
+        messageArray[i] = "";
+    }
+
+    b->print(b->getRoot(), messageArray, 0);
+
+    for (int i = 0; i < messageArray->size(); i++) {
+        if (messageArray[i] != "")
+        {
+            cout << messageArray[i] << endl;
+        }
+    }
 }
 
 int main() {

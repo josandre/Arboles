@@ -373,7 +373,7 @@ void BPlusTree::Print(BPlusTreeNode* cursor, string* messageArray, int level) {
 
     string myNodes = "";
     // Print current node
-    for (int i = 0; i < cursor->GetSize(); ++i) {
+    for (int i = 0; i < cursor->GetSize(); i++) {
         myNodes += "|" + to_string(cursor->GetItem()[i]);
     }
     myNodes += "|    ";

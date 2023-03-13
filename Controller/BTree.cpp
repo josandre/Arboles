@@ -8,6 +8,10 @@ BTree::BTree(int t) {
     this->t = t;
 }
 
+BTreeNode *BTree::getRoot() {
+    return this->root;
+}
+
 void BTree::traverse() {
     if(this->root != nullptr) this->root->traverse();
 }
@@ -47,5 +51,26 @@ void BTree::insert(int key) {
             root->insertNonFull(key);
         }
 
+    }
+}
+
+void BTree::print(BTreeNode* cursor, string* messageArray, int level) {
+    if (cursor == nullptr) {
+        return;
+    }
+
+    string myNodes = "";
+    // Print current node
+    for (int i = 0; i < cursor->getN(); i++) {
+        myNodes += "|" + to_string(cursor->getKeys()[i]);
+    }
+    myNodes + "|    ";
+    messageArray[level] += myNodes;
+
+    // Print children
+    if (cursor->getLeaf() == false) {
+        for (int i = 0; i < cursor->getN() + 1; i++) {
+            print(cursor->getC()[i], messageArray, level + 1);
+        }
     }
 }

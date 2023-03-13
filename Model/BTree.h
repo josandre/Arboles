@@ -14,6 +14,8 @@ public:
     void traverse();
    BTreeNode *search(int);
    void insert(int);
+    void print(BTreeNode*, string*, int);
+    BTreeNode* getRoot();
 
 private:
     BTreeNode *root;
