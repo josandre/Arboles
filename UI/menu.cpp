@@ -224,7 +224,12 @@ void Menu::buscar(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    gestorAVL->Search(input);
+    if(gestorAVL->Search(input)){
+        cout << input << endl;
+    } else{
+        cout << "this number does not exists" << endl;
+    }
+
     break;
   case 2:
     do
@@ -361,6 +366,10 @@ void Menu::menuPrincipal()
         cout << "-------------------------------------" << endl;
         cin >> answer;
 
+        if(answer == 0){
+            exit(0);
+        }
+
         menuOpciones(answer);
 
         if (answer == 0)
@@ -371,7 +380,7 @@ void Menu::menuPrincipal()
         {
             keepLooping = true;
         }
-    } while (keepLooping);
+    }while (keepLooping);
 }
 
 void Menu::menuOpciones(int arbol)

@@ -13,7 +13,6 @@ void InsertBPlus(BPlusTreeController* tree, int value) {
 }
 void BPlusTest() {
     BPlusTreeController* tree = new BPlusTreeController(4);
-
     InsertBPlus(tree, 15);
     InsertBPlus(tree, 16);
     InsertBPlus(tree, 17);
