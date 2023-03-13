@@ -18,6 +18,7 @@ public:
   BTreeNode *search(int key);
   void insert(int key);
   void print();
+  void deletion(int key);
 };
 
 #endif // BTREECONTROLLER_H

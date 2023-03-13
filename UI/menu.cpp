@@ -7,6 +7,7 @@
 #include "ModelGestor/BPlusTreeController.h"
 #include "Model/RedBlackTree.h"
 #include "ModelGestor/BTreeController.h"
+#include "UI/menu.h"
 
 // PROTOTIPO DE FUNCIONES
 void menuPrincipal();
@@ -264,7 +265,7 @@ void remover(int arbol)
         cout << "Error. Inserte un número entero:" << endl;
       }
     } while (!valid);
-    //    btree->deleteNode(input);
+      btree->
     break;
   case 4:
     do

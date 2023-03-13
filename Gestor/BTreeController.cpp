@@ -43,4 +43,8 @@ public:
     }
     delete[] lines;
   }
+  void deletion(int key)
+  {
+    bTree->deletion(key);
+  }
 };
