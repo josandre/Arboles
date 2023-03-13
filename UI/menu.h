@@ -6,12 +6,18 @@
 #include "../Model/RedBlackTree.h"
 #include "../ModelGestor/BTreeController.h"
 
-void menuPrincipal();
-void menuOpciones(int arbol);
-int menuOpcionesFun(int arbol, int answer);
-void insertar(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
-void remover(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
-void buscar(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
-void imprimir(int arbol, AVLTreeController *gestorAVL, RedBlackTree *bst, BTreeController *btree, BPlusTreeController *bplus);
+class Menu{
+public:
+    Menu();
+    void menuPrincipal();
+    void menuOpciones(int arbol);
+    int menuOpcionesFun(int arbol, int answer);
+    void insertar(int arbol);
+    void remover(int arbol);
+    void buscar(int arbol);
+    void imprimir(int arbol);
+};
+
+
 
 #endif

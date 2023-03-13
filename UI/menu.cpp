@@ -18,7 +18,14 @@ static RedBlackTree *bst = new RedBlackTree();
 static BTreeController *btree = new BTreeController(5);
 static BPlusTreeController *bplus = new BPlusTreeController(4);
 
-void insertar(int arbol)
+
+Menu::Menu() {
+
+}
+
+
+
+void Menu::insertar(int arbol)
 {
     int input = -1;
     bool valid = false;
@@ -105,7 +112,9 @@ void insertar(int arbol)
     }
 }
 
-void remover(int arbol)
+
+
+void Menu::remover(int arbol)
 {
   int input = -1;
   bool valid = false;
@@ -192,7 +201,7 @@ void remover(int arbol)
   }
 }
 
-void buscar(int arbol)
+void Menu::buscar(int arbol)
 {
   int input = -1;
   bool valid = false;
@@ -281,7 +290,7 @@ void buscar(int arbol)
 
 
 
-void imprimir(int arbol)
+void Menu::imprimir(int arbol)
 {
   int input = -1;
   bool valid = false;
@@ -308,11 +317,12 @@ void imprimir(int arbol)
   }
 }
 
-int menuOpcionesFun(int arbol, int answer)
+int Menu::menuOpcionesFun(int arbol, int answer)
 {
     switch (answer)
     {
         case 1:
+
             insertar(arbol);
             break;
         case 2:
@@ -333,7 +343,7 @@ int menuOpcionesFun(int arbol, int answer)
     return answer;
 }
 
-void menuPrincipal()
+void Menu::menuPrincipal()
 {
     int answer;
     bool keepLooping = true;
@@ -364,7 +374,7 @@ void menuPrincipal()
     } while (keepLooping);
 }
 
-void menuOpciones(int arbol)
+void Menu::menuOpciones(int arbol)
 {
     int answer;
     bool keepLooping = true;
@@ -394,14 +404,3 @@ void menuOpciones(int arbol)
     } while (keepLooping);
 
 }
-
-
-void menuPrincipal();
-void menuOpciones(int arbol);
-int menuOpcionesFun(int arbol, int answer);
-void insertar(int arbol);
-void remover(int arbol);
-void buscar(int arbol);
-void imprimir(int arbol);
-
-

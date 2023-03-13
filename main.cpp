@@ -99,17 +99,14 @@ void BTreeTest(){
     b->insert(16);
     b->insert(17);
 
-
-
     cout << "The B-tree is: ";
-
-
     b->deletion(20);
     b->traverse();
 
 }
 
 int main() {
-    menuPrincipal();
+    Menu *menu = new Menu();
+    menu->menuPrincipal();
     return 0;
 }
